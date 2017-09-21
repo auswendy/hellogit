@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "굴림", "돋움";
+	font-size: 12px;
+	color: #222;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+#container {
+	width: 800px;
+	margin: auto;
+}
+#header {
+	width: auto;
+	height: 100px;
+	background-color: #f8f8f8;
+}
+#header h1 {
+	height: 42px;
+	padding-top: 20px;
+	font-size: 24px;
+	text-indent: 10px;
+}
+#header li {
+	display: inline-block;
+	width: 20%;
+	border-top: 1px solid #bebebe;
+	border-bottom: 1px solid #bebebe;
+}
+#header li a {
+	display: block;
+	width: auto;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 20px;
+	border-right: 1px dotted #dddddd;
+}
+#header li:last-child a {
+	border-right: 0;
+}
+#header li a:hover {
+	background-color: #e7eaf0;
+	font-weight: bold;
+}
+#content {
+	width: auto;
+	min-height: 630px;
+	padding-top:20px;
+	padding-bottom: 30px;
+}
+#body {
+	width: 640px;
+	float: left;
+}
+#gallery {
+	width: auto;
+}
+#gallery li {
+	width: 25%;
+	float: left;
+}
+#gallery li a {
+	display: block;
+	width: auto;
+	padding: 10px;
+}
+#gallery li a:hover {
+	background-color: #f8f8f8;
+	font-weight: bold;
+}
+#gallery li a span {
+	display: block;
+	width: auto;
+}
+#gallery .thumb img {
+	width: 100%;
+}
+#gallery .text {
+	width: 95%;
+	height: 30px;
+	margin: auto;
+	text-align: center;
+	padding: 5px 0;
+}
+#sidebar {
+	width: 160px;
+	height: 200px;
+	float: left;
+	background-color: #eaeaea;
+}
+#sidebar .frm-login {
+	padding: 20px 10px;
+}
+.frm-login fieldset {
+	border-style: none;
+	margin-top: 10px;
+}
+.frm-login fieldset legend {
+	display:block;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+.class:after {
+	content: '';
+	display: block;
+	clear: both;
+	float: none;
+}
+#footer {
+	width: auto;
+	height: 80px;
+	background-color: #f8f8f8;
+	border-top: 1px solid #bebebe;
+}
+#footer address {
+	font-style: normal;
+	text-align: center;
+	padding:20px 0;
+}
